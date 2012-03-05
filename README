@@ -1,0 +1,104 @@
+A collection of code samples to show off basic problem solving skills
+
+-----
+
+Happy Numbers
+Description
+A happy number is deﬁned by the following process. Starting with any positive integer, 
+replace the number by the sum of the squares of its digits, and repeat the process until 
+the number equals 1 (where it will stay), or it loops endlessly in a cycle which does not 
+include 1. Those numbers for which this process ends in 1 are happy numbers, while 
+those that do not end in 1 are unhappy numbers.
+Input sample
+File containing a list of integers, one per line.
+Sample
+1
+7
+22
+Output sample
+If the number is happy, print out 1. It not, print out 0.
+Sample
+1
+1
+0
+For the curious, here’s why 7 is a happy number: 7->49->97->130->10->1. Here’s why 
+22 is NOT a happy number: 22->8->64->52->29->85->89->145->42->20->4->16->37-
+>58->89 ...
+
+-----
+
+Longest Lines
+Description
+Write a program to read a multiple line ﬁle and output the ‘N’ longest lines.
+Input sample
+File containing a positive integer ‘N’ on the ﬁrst line, followed by any number of strings, 
+one per line.
+Sample
+2
+Hello World
+CBS Local
+Quick Fox
+A
+San Francisco
+Output sample
+Print out the ‘N’ longest lines in decreasing order of length. Do NOT print out empty 
+lines. Ensure that there are no trailing empty spaces on each line; these should not 
+count toward a line’s length.
+Sample
+San Francisco
+Hello World
+
+-----
+
+Number of Ones
+Description
+Write a program to determine the number of 1 bits in the internal representation of a 
+given integer.
+Input sample
+File containing a list of integers, one per line.
+Sample
+10
+22
+56
+Output sample
+Print out the number of ones in the binary form of each number.
+Sample
+2
+3
+3
+
+-----
+
+Set Intersection
+Description
+You are given two ascending order sorted lists of numbers. The lists themselves are 
+comma delimited and the two lists are semicolon delimited. Print out the intersection of 
+the two sets.
+Input sample
+File containing two lists of ascending order sorted integers, comma delimited, one per 
+line.
+Sample
+1,2,3,4;4,5,6
+7,8,9;8,9,10,11,12
+Output sample
+Print out the ascending order sorted intersection of the two lists, one per line.
+Sample
+4
+8,9
+
+-----
+
+Unique Elements
+Description
+You are given a sorted list of numbers with duplicates. Print out the sorted list with 
+duplicates removed.
+Input sample
+File containing a list of sorted integers, comma delimited, one per line.
+Sample
+1,1,1,2,2,3,3,4,4
+2,3,4,5,5
+Output sample
+Print out the sorted list with duplicates removed, one per line.
+Sample
+1,2,3,4
+2,3,4,5
